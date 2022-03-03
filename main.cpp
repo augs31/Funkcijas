@@ -2,10 +2,18 @@
 
 
 using namespace std;
-int process (int x, int y, int & max, double & avg) 
-{
-//Iztrūkst kods!!!!!!!!!!!!!!!
+int process (int x, int y, int & max, double & avg) {
+ avg =(x+y)/2;
+if (x>y) { 
+  max = x;
+  starp = x-y;
 }
+else {
+  max = y;
+  starp = y;
+  return starp
+    }
+
 int main() {
 	int a,b,liel;
 	double vid;
